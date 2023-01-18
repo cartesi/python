@@ -14,7 +14,11 @@
       "bullseye",
       "slim-bullseye",
       "alpine3.21",
-      "alpine3.20"
+      "alpine3.20",
+      "jammy",
+      "slim-jammy",
+      "noble",
+      "slim-noble"
     ],
     "version": "3.10.16"
   },
@@ -33,7 +37,11 @@
       "bullseye",
       "slim-bullseye",
       "alpine3.21",
-      "alpine3.20"
+      "alpine3.20",
+      "jammy",
+      "slim-jammy",
+      "noble",
+      "slim-noble"
     ],
     "version": "3.11.11"
   },
@@ -53,6 +61,10 @@
       "slim-bullseye",
       "alpine3.21",
       "alpine3.20",
+      "jammy",
+      "slim-jammy",
+      "noble",
+      "slim-noble",
       "windows/windowsservercore-ltsc2025",
       "windows/windowsservercore-ltsc2022",
       "windows/windowsservercore-1809"
@@ -75,6 +87,10 @@
       "slim-bullseye",
       "alpine3.21",
       "alpine3.20",
+      "jammy",
+      "slim-jammy",
+      "noble",
+      "slim-noble",
       "windows/windowsservercore-ltsc2025",
       "windows/windowsservercore-ltsc2022",
       "windows/windowsservercore-1809"
@@ -97,6 +113,10 @@
       "slim-bullseye",
       "alpine3.21",
       "alpine3.20",
+      "jammy",
+      "slim-jammy",
+      "noble",
+      "slim-noble",
       "windows/windowsservercore-ltsc2025",
       "windows/windowsservercore-ltsc2022",
       "windows/windowsservercore-1809"
@@ -118,7 +138,11 @@
       "bullseye",
       "slim-bullseye",
       "alpine3.21",
-      "alpine3.20"
+      "alpine3.20",
+      "jammy",
+      "slim-jammy",
+      "noble",
+      "slim-noble"
     ],
     "version": "3.9.21"
   }
