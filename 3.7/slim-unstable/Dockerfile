@@ -13,6 +13,13 @@ ENV PATH /usr/local/bin:$PATH
 # > At the moment, setting "LANG=C" on a Linux system *fundamentally breaks Python 3*, and that's not OK.
 ENV LANG C.UTF-8
 
+# https://wiki.debian.org/RISC-V#Package_repository
+# we need to manually download and install this package while it's not updated, so we don't get
+# error of "The repository 'http://deb.debian.org/debian-ports sid ?InRelease' is not signed"
+RUN wget http://ftp.br.debian.org/debian/pool/main/d/debian-ports-archive-keyring/debian-ports-archive-keyring_2023.01.07_all.deb; \
+	dpkg -i debian-ports-archive-keyring_2023.01.07_all.deb; \
+	rm debian-ports-archive-keyring_2023.01.07_all.deb
+
 # runtime dependencies
 RUN set -eux; \
 	apt-get update; \
